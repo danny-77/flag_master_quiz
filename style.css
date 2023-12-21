@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #0b192c;
+    margin: 0;
+    padding: 0; 
+    
+  }
+  
+
+
+  #quiz-container {
+    margin: 0;
+  } 
+
+  #quiz-heading {
+      margin-top: 0;
+  } 
+
+  
+
+  .app {
+    max-width: 600px; 
+    background: rgb(226, 226, 226);
+    margin: 0 auto; 
+    margin-bottom: 30px; 
+    margin-top: 30px;
+    width: 100%; 
+    padding: 30px;
+    border-radius: 10px;
+    
+  }
+  
+#score-question { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-bottom: 10px;
+} 
+
+#prompt {
+    font-size: 16px;
+    margin-top: 15px; 
+    margin-bottom: 10px;
+}
+
+  .answer-btn {
+    background: #fff;
+    width: 100%; 
+    color: black; 
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none; 
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer; 
+    text-align: left; 
+    font-weight: 600; 
+    font-size: 14px;
+    transition: 0.15s;
+  } 
+
+  .answer-btn:hover:not([disabled]) {
+    color: #fff; 
+    background: black;
+} 
+
+.answer-btn:disabled {
+    cursor: no-drop;
+} 
+
+.answer-btn.clicked {
+    background-color: #555; /* Change the background color to visually indicate the button is clicked */
+    color: #fff;
+  }
+  
+  #score, #question-no {
+    font-size: 16px;
+  }
+  
+  #flag-image img {
+    width: 300px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */ 
+  }
+  
+  .correct {
+    background-color: #8FDB8F;
+  }
+  
+  .incorrect {
+    background-color: #FF6F61;
+  }
+  
+  
+  
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .app {
+        width: 90%;
+        margin: 30% auto;
+        padding-left: 10px; 
+        padding-right: 10px;
+        
+    } 
+
+    #score, #question-no {
+        font-size: 14px;
+    }
+
+    #flag-image img {
+        max-width: 250px;
+        margin: 0; 
+        width: 300px; /* Adjust the size as needed */
+        height: 160px; /* Adjust the size as needed */  
+    } 
+
+    #quiz-heading {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    #prompt {
+        margin-top: 20px; 
+        font-size: 16px;
+    }  
+
+    #quiz-container {
+        margin: 0;
+    } 
+  
+}  
+
+@media only screen and (max-width: 767px) {
+    .app {
+        width: 78% !important;
+      
+    }
+}
+
+
+
+
+

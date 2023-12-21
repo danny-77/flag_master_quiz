@@ -3,7 +3,7 @@
 
 ## A fully functional country flag quiz project built with HTML, CSS, and JavaScript, integrated with the REST Countries API. Explore how to create an engaging quiz experience. 
 
-### Live Demo
+## Live Demo
 
 Check out the live demo: [My Awesome App on Netlify](https://your-netlify-app-name.netlify.app/)
 

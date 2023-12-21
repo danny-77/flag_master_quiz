@@ -12,17 +12,36 @@ Check out the live demo: [Flag Master Quiz](https://main--delightful-begonia-eb2
 The Flag Master Quiz is a web-based application that challenges users to identify countries based on their flags. This interactive quiz features a user-friendly interface, engaging questions, and real-time feedback on the user's performance.
 
 
-**Dynamic Quiz Questions:** The quiz fetches country data from the [restcountries.com](https://restcountries.com/v2/all) API, ensuring a diverse set of questions.
+## Project Highlights:
 
-- **Responsive Design:** The application is designed to work seamlessly across various screen sizes, providing an optimal user experience on both desktop and mobile devices.
+- **Responsive Design:** Adapts seamlessly to various screen sizes for an optimal user experience.
 
-- **Scoring System:** Users receive instant feedback on their answers, with a running score displayed on the screen. The final score is presented at the end of the quiz.
+- **User Interaction:**
+  - **Answer Selection:** Intuitive interface for easy answer selection.
+  - **Visual Feedback:** Stylish button changes based on user responses.
 
-- **Play Again Option:** Upon completing the quiz, users have the option to play again, restarting the quiz with a new set of questions. 
+- **Quiz Flow:**
+  - **Show Each Question:** Dynamically displays each question for an engaging progression.
+  - **Next Question Functionality:** Seamless progression with a "Next Question" feature.
 
-- **Answer Shuffling:** To enhance the challenge, the answer choices are dynamically shuffled for each question, preventing users from memorizing the order.
+- **Diversity and Challenge:**
+  - **Get Random Country Function:** Introduces randomness for diverse and unpredictable questions.
+  - **Answer Shuffling:** Dynamically shuffles answer choices for added challenge.
 
-- **Visual Feedback:** The styling of answer buttons changes based on user responses, providing a visual cue for correct and incorrect answers.
+- **Conclusion and Replay:**
+  - **Ending the Quiz:** Concludes with a comprehensive summary of user performance.
+  - **Play Again Option:** Gives users the option to replay and enjoy a new set of questions.
+
+- **Enhancements:**
+  - **Timer Feature:** Adds an element of urgency to questions.
+  - **Educational Content:** Includes informative details like country flags.
+  - **Randomized Question Order:** Keeps the quiz dynamic across attempts.
+
+- **Accessibility and Integration:**
+  - **User-Friendly Prompts:** Clear and concise guidance for a positive user experience.
+  - **API Integration:** Dynamically fetches country data from REST Countries API.
+
+
 
 
 ## Technologies Used

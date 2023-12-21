@@ -1,7 +1,7 @@
 # Flag Master Quiz 
 
 
-## A fully functional quiz project written in HTML, CSS, JAVSCRIPT & Integrated with the REST COUNTRIES API showing how to create a country flag quiz !
+## A fully functional country flag quiz project built with HTML, CSS, and JavaScript, integrated with the REST Countries API. Explore how to create an engaging quiz experience.
 
 
 
